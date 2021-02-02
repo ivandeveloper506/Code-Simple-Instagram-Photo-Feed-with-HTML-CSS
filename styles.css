@@ -1,0 +1,44 @@
+body{
+  background-color: lightgray;
+}
+
+.cajaTitulo {
+    background-color: white;
+    display: flex;
+    margin: 20px 400px 0px 400px;
+  }
+
+.cajaFotoPrincipal {
+    background-color: white;
+    display: flex;
+    margin: 0px 400px 0px 400px;
+  }
+
+  .cajaPie {
+    background-color: white;
+    display: flex;
+    margin: 0px 400px 0px 400px;
+  }
+
+  #tituloPrincipal{
+    background-color: white;
+    text-align: center;
+    padding: 1px;
+  }
+
+  .tituloIzquierda{
+    flex-grow: 8;
+    padding: 10px ;
+  }
+
+  .tituloDerecha{
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    color: darkgray;
+  }
+
+  .cajaFoto{
+    height: 350px;
+    padding: 1px;
+  }
